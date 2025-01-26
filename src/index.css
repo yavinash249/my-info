@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+    135deg,
+    #0f172a 0%,
+    #1a2333 100%
+  );
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    radial-gradient(circle at 15% 50%, rgba(74, 222, 128, 0.08) 0%, transparent 25%),
+    radial-gradient(circle at 85% 30%, rgba(251, 191, 36, 0.08) 0%, transparent 25%);
+  pointer-events: none;
+}
+
+/* Add subtle grid pattern */
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 50px 50px;
+  pointer-events: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  min-height: 100%;
+}
+
+/* Add glow effect to primary colored elements */
+.text-primary {
+  text-shadow: 0 0 30px rgba(74, 222, 128, 0.3);
+}
+
+.text-accent {
+  text-shadow: 0 0 30px rgba(251, 191, 36, 0.3);
+}
