@@ -1,31 +1,34 @@
 import { motion } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import musicImg from "../assets/music.jpg"
+import jobPortalImg from "../assets/job.jpg"
+import galleryImg from "../assets/gallery.jpg"
 
 const Projects = () => {
   const projects = [
     {
-      title: "CubeSat Control System",
-      description: "Developed control systems for nano-satellites, implementing attitude control and data handling systems.",
-      image: "/cubesat-project.jpg", // Add your image path
-      tags: ["Python", "C++", "Embedded Systems"],
-      githubUrl: "https://github.com/yourusername/project1",
-      liveUrl: "https://project1-demo.com"
+      title: "Music school website",
+      description: "Simple music school website made with next js and aceternity Ui.",
+      image: musicImg, // Add your image path
+      tags: ["next js", "shadcn", "axios"],
+      githubUrl: "https://github.com/yavinash249/rinui",
+      liveUrl: "https://rinui-vert.vercel.app/"
     },
     {
-      title: "Cloud Infrastructure Dashboard",
-      description: "A modern dashboard for monitoring and managing cloud resources across multiple providers.",
-      image: "/cloud-project.jpg", // Add your image path
-      tags: ["React", "Node.js", "AWS"],
-      githubUrl: "https://github.com/yourusername/project2",
-      liveUrl: "https://project2-demo.com"
+      title: "Job Portal",
+      description: "A static job portal website to add and view job listings",
+      image: jobPortalImg, // Add your image path
+      tags: ["React", "Node.js", "json"],
+      githubUrl: "https://github.com/yavinash249/job-portal",
+      liveUrl: "https://job-portal-alpha-jade.vercel.app/"
     },
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with real-time inventory management and payment processing.",
-      image: "/ecommerce-project.jpg", // Add your image path
-      tags: ["Next.js", "MongoDB", "Stripe"],
-      githubUrl: "https://github.com/yourusername/project3",
-      liveUrl: "https://project3-demo.com"
+      title: "Image gallery",
+      description: "Build image gallery with react js and unsplash api",
+      image: galleryImg, // Add your image path
+      tags: ["Unsplash api", "react js", "Axios"],
+      githubUrl: "https://github.com/yavinash249/Gallery",
+      liveUrl: "https://gallery-nu-eight.vercel.app/"
     }
   ];
 
