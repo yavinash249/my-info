@@ -45,7 +45,7 @@ const Footer = () => {
           >
             <h3 className="text-2xl font-bold text-primary mb-2">Avinash Yadav</h3>
             <p className="text-gray-400 text-sm">
-              Building digital experiences with modern technologies
+              Building website with modern technologies
             </p>
           </motion.div>
 
