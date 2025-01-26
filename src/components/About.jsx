@@ -63,14 +63,14 @@ const About = () => {
               From Satellites to Web Development
             </h3>
             <p className="text-gray-300 leading-relaxed">
-              My journey began in the fascinating world of CubeSat development, where I honed my 
-              problem-solving skills working on complex space engineering challenges. This unique 
-              background has given me a distinctive approach to web development and cloud solutions.
+              My journey began in after completing BCA and start small scale Sartup STAR Orbital for CubeSat development, where I honed my 
+              problem-solving .While working on cubesat with team i learn about ardunio programming and circut board 
+              desgin and atenna development. This help me to understand the how team work and solve the problem with collaboration.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              Today, I combine my engineering mindset with modern web technologies to create 
-              efficient, scalable, and user-friendly applications. I'm passionate about bridging 
-              the gap between complex technical solutions and elegant user experiences.
+              Today, I learning and looking modern web technologies to create 
+              efficient, scalable, and user-friendly applications. I also tried many no code tool so if im not
+              good at coding atleast im still capable to make mark in industry.
             </p>
           </motion.div>
         </div>
