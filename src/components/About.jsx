@@ -1,6 +1,6 @@
-/* eslint-disable react/no-unescaped-entities */
 import { motion } from 'framer-motion';
 import { FaRocket, FaLightbulb, FaHeart } from 'react-icons/fa';
+import profileImg from '../assets/PROFILE.jpg'; // Import the image
 
 const About = () => {
   const values = [
@@ -44,7 +44,7 @@ const About = () => {
           >
             <div className="aspect-square rounded-2xl overflow-hidden">
               <img
-                src="/src/assets/PROFILE.jpg" // Add your image path
+                src={profileImg} // Use the imported image
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
