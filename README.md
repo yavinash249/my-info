@@ -24,3 +24,5 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 - **Tailwind CSS**: A utility-first CSS framework for styling (optional, if you're using it).
 - **Framer Motion**: For animations (optional, if you're using it).
 - **Git & GitHub**: For version control and hosting the project.
+
+- **Email **: Curretnly user's can't send me any message through website but you should contact me through linkedin and my email 
