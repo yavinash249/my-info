@@ -2,7 +2,11 @@
 
 Welcome to my personal portfolio website! This project showcases my skills, projects, and contact information. It is built using **React.js**, **Vite**, and **React Router** for a seamless and modern user experience.
 
+####  Below link for netlfiy static build site
+-[netlify static link](https://aks-avinash.netlify.app/)
 
+#### below for vercel deployed link
+-[vercel deplyoment link](https://aksavinash.vercel.app/)
 
 ## Features
 
