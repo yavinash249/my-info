@@ -3,6 +3,9 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import musicImg from "../assets/music.jpg"
 import jobPortalImg from "../assets/job.jpg"
 import galleryImg from "../assets/gallery.jpg"
+// eslint-disable-next-line no-unused-vars
+import { title } from 'framer-motion/client';
+import playerImg from "../assets/PLAYER.jpg"
 
 const Projects = () => {
   const projects = [
@@ -29,6 +32,14 @@ const Projects = () => {
       tags: ["Unsplash api", "react js", "Axios"],
       githubUrl: "https://github.com/yavinash249/Gallery",
       liveUrl: "https://gallery-nu-eight.vercel.app/"
+    },
+    {
+      title:" Static playlist player",
+      description: "A static youtube playlist player",
+      image: playerImg,
+      tags: ["React","vite"],
+      githubUrl:"https://github.com/yavinash249/music-player-static",
+      liveUrl: "https://music-player-static-alpha.vercel.app/"
     }
   ];
 
