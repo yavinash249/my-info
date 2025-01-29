@@ -6,6 +6,7 @@ import galleryImg from "../assets/gallery.jpg"
 // eslint-disable-next-line no-unused-vars
 import { title } from 'framer-motion/client';
 import playerImg from "../assets/PLAYER.jpg"
+import mainImg from "../assets/main.jpg"
 
 const Projects = () => {
   const projects = [
@@ -40,6 +41,14 @@ const Projects = () => {
       tags: ["React","vite"],
       githubUrl:"https://github.com/yavinash249/music-player-static",
       liveUrl: "https://music-player-static-alpha.vercel.app/"
+    },
+    {
+      title: "Portfolio",
+      description: "A portfolio website to showcase my projects and skills",
+      image: mainImg,
+      tags: ["React", "vite"],
+      githubUrl: "https://github.com/yavinash249/my-info",
+      liveUrl: "https://aksavinash.vercel.app/"
     }
   ];
 
