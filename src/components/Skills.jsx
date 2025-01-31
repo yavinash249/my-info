@@ -74,7 +74,7 @@ const Skills = () => {
 
           <div className="text-center">
             <h3 className="text-2xl font-bold mb-8 text-primary">No-Code Expertise</h3>
-            <h4 className="text font-semibold mb-5 text-orange-600">No-code tools if you find i&apos;m not good at coding .</h4>
+            <h4 className="text font-semibold mb-5 text-orange-600">No-code tools if you find i&apos;m not good at coding... </h4>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
               {noCodeTools.map((tool, index) => (
                 <motion.div
