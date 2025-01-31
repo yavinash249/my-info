@@ -2,7 +2,11 @@
 
 Welcome to my personal portfolio website! This project showcases my skills, projects, and contact information. It is built using **React.js**, **Vite**, and **React Router** for a seamless and modern user experience.
 
+####  Below link for netlfiy static build site
+-[netlify static link](https://aks-avinash.netlify.app/)
 
+#### below for vercel deployed link
+-[vercel deplyoment link](https://aksavinash.vercel.app/)
 
 ## Features
 
@@ -20,3 +24,5 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 - **Tailwind CSS**: A utility-first CSS framework for styling (optional, if you're using it).
 - **Framer Motion**: For animations (optional, if you're using it).
 - **Git & GitHub**: For version control and hosting the project.
+
+- **Email **: Curretnly user's can't send me any message through website but you should contact me through linkedin and my email 
