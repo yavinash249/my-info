@@ -55,6 +55,7 @@ const Projects = () => {
       title: "Reels Blocker",
       description: "A extension to block reels on Instagram",
       image: reelsImg,
+      tags: ["Chrome Extension", "JavaScript"],
       githubUrl: "https://github.com/yavinash249/reels-block",
       liveUrl: "",
     }
