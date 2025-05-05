@@ -7,6 +7,7 @@ import galleryImg from "../assets/gallery.jpg"
 import { title } from 'framer-motion/client';
 import playerImg from "../assets/PLAYER.jpg"
 import mainImg from "../assets/main.jpg"
+import reelsImg from "../assets/reels blocker.jpg"
 
 const Projects = () => {
   const projects = [
@@ -49,6 +50,12 @@ const Projects = () => {
       tags: ["React", "vite"],
       githubUrl: "https://github.com/yavinash249/my-info",
       liveUrl: "https://aksavinash.vercel.app/"
+    },
+    {
+      title: "Reels Blocker",
+      description: "A extension to block reels on Instagram",
+      image: reelsImg,
+      githubUrl: "https://github.com/yavinash249/reels-block",
     }
   ];
 
