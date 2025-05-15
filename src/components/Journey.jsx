@@ -45,7 +45,7 @@ const Journey = () => {
 
           {journeySteps.map((step, index) => (
             <motion.div
-              key={step.year}
+              key={`${step.year}-${step.title}`}
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
