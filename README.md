@@ -15,6 +15,11 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 - **Dynamic Content**: Easily update your portfolio content (projects, skills, etc.) by modifying the data files or components.
 - **Modern Tooling**: Built with Vite for fast development and optimized production builds.
 - **Interactive UI**: Includes hover effects, smooth scrolling, and other interactive elements to enhance user experience.
+**Supabas** :Add Supabase to backend to get message from contact page and i see that on my admin side . 
+
+![image](images/portfoliomain.jpg)
+![image2](images/message.jpg)
+![image3](images/adminlogin.jpg)
 
 ## Technologies Used
 
@@ -24,4 +29,5 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 - **Tailwind CSS**: A utility-first CSS framework for styling (optional, if you're using it).
 - **Framer Motion**: For animations (optional, if you're using it).
 - **Git & GitHub**: For version control and hosting the project.
-- **Email**: Curretnly user's can't send me any message through website but you should contact me through linkedin and my email 
+- **Email**: Curretnly user's  send me any message through website but you should contact me through linkedin and my email and dont spam i have on free tier for this.
+**Deepseek and other ai tool** : i used many tools from creating testing and deployment for my protfolio. 
