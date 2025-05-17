@@ -27,7 +27,7 @@ const Journey = () => {
     {
       year: '2025',
       title: 'Trainee',
-      description : 'Join wizcoder and learn about team collaboration and working in a team how they work and manage entire project.',
+      description : 'Join Wizcoder and learn about team collaboration and working in a team and how they work and manage entire projects',
       icon: <FaCode className='text-amber-400 text-4xl'/>,
       image: 'https://images.unsplash.com/photo-1629904853716-f0bc54eea481?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     },
