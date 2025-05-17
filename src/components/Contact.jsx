@@ -43,11 +43,11 @@ const Contact = () => {
           transition={{ duration: 0.5 }}
           className="bg-gray-800 p-8 rounded-lg shadow-xl"
         >
-          <h2 className="text-3xl font-bold mb-8 text-center text-blue-500">Get In Touch</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center text-accent">Get In Touch</h2>
           
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-xl font-semibold mb-4 text-blue-400">Contact Information</h3>
+              <h3 className="text-xl font-semibold mb-4 text-primary">Contact Information</h3>
               <div className="space-y-4">
                 <a
                   href="mailto:y.avinash249@gmail.com"
