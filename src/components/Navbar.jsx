@@ -1,11 +1,24 @@
-import { useState } from 'react';
+import { useState , useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import  LogoIcon  from '../assets/letter-b.svg'
+// import LogoIcon from '../assets/letter-b.svg'
+import LogoPng from '../assets/letter-b.png'; // Use your PNG file
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled , setScrolled] = useState(false);
 
+  useEffect(()=> {
+    const handleScroll = () => {
+      if(window.scrollY > 50){
+        setScrolled(true);
+      }else{
+        setScrolled(false);
+      }
+    };
+    window.addEventListener('scroll',handleScroll);
+    return()=> window.removeEventListener('scroll',handleScroll);
+  }, []);
   const navLinks = [
     { title: 'Home', path: '/' },
     { title: 'About', path: '/about' },
@@ -15,18 +28,17 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed w-full bg-gray-800 shadow-lg z-50">
+    <nav className={`fixed w-full shadow-lg z-50 transition-all duration-300 ${scrolled ? 'bg-gray-800' : 'bg-transparent'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link to="/" className="text-xl font-bold" >
-          
-          <img src={LogoIcon} alt=""  className='h-9 w-9'/>
-           <span className='sr-only'> Avinash </span>  
+          <Link to="/" className="flex items-center text-xl font-bold">
+            <img src={LogoPng} alt="A" className="h-9 w-9 mr-2" />
+            
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
+            <div className="ml-11 flex  items-baseline space-x-4">
               {navLinks.map((link) => (
                 <Link
                   key={link.title}

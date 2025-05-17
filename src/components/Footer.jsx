@@ -101,7 +101,7 @@ const Footer = () => {
         >
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {currentYear} Your Name. All rights reserved.
+              © {currentYear} Avinash Yadav. All rights reserved.
             </p>
             <div className="mt-4 md:mt-0">
               <a href="#" className="text-sm text-gray-400 hover:text-primary transition-colors">
