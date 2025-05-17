@@ -34,7 +34,7 @@ const About = () => {
           <p className="text-accent text-lg">My Journey in Technology</p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
+        <div className="grid md:grid-cols-2 gap-12 items-center mb-20 rounded-lg">
           {/* Image Section */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -71,6 +71,9 @@ const About = () => {
               Today, I learning and looking modern web technologies to create 
               efficient, scalable, and user-friendly applications. I also tried many no code tool so if im not
               good at coding atleast im still capable to make mark in industry.
+            </p>
+            <p className='text-gray-300 leading-loose'>
+              Join wizcoder and learn about how the company work on project individual role on development,testing and deployment.
             </p>
           </motion.div>
         </div>
