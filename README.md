@@ -16,6 +16,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 - **Interactive UI**: Includes hover effects, smooth scrolling, and other interactive elements to enhance user experience.
 - **Supabase**: Added Supabase to the backend to receive messages from the contact page, which I can view on my admin side.
 
+
 ![Portfolio Main](images/portfoliomain.jpg)
 ![Message](images/message.jpg)
 ![Admin Login](images/adminlogin.jpg)
@@ -29,4 +30,5 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 - **Framer Motion**: For animations (optional, if you're using it).
 - **Git & GitHub**: For version control and hosting the project.
 - **Email**: Currently, users can send me messages through the website, but you should contact me through LinkedIn and my email. Please don't spam; I am on the free tier for this.
+-**Admin side** : i add view and delete button on admin side ,so that admin can delete message without visiting supabase page.  
 - **DeepSeek and Other AI Tools**: I used many tools for creating, testing, and deploying my portfolio.
