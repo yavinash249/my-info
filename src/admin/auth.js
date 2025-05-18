@@ -85,3 +85,19 @@ export const verifySession = async (request) => {
   }
   return getSession();
 };
+
+//  deletion of messages 
+export const deleteMessage = async (messageId) => {
+  try {
+    const { error } = await supabase
+      .from('messages')
+      .delete()
+      .eq('id', messageId);
+
+    if (error) throw error;
+    return true;
+  } catch (error) {
+    console.error('Delete error:', error.message);
+    throw error;
+  }
+};
