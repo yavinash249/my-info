@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import AdminLogin from './admin/AdminLogin';
 import Messages from './admin/Message';
 import AdminLayout from './admin/AdminLayout';
+import GithubAnalyzer from './components/GithubAnalyzer';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/contact" element={<Contact />} />
-          
+          <Route path="/github" element={<GithubAnalyzer />} />
           {/* Admin login route - outside of protected layout */}
           <Route path="/admin/login" element={<AdminLogin />} />
           
