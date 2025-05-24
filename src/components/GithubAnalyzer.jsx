@@ -57,7 +57,7 @@ const GithubAnalyzer = () => {
 
   return (
     <div className="min-h-screen bg-gray-900 text-white py-12  px-4">
-      <div className="max-w-6xl mx-auto py-4">
+      <div className="min-h-screen  max-w-6xl mx-auto py-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -70,7 +70,7 @@ const GithubAnalyzer = () => {
           </h1>
           
           <form onSubmit={handleSubmit} className="mb-8">
-            <div className="flex gap-2">
+            <div className="flex gap-2 flex-col sm:flex-row">
               <input
                 type="text"
                 value={username}
