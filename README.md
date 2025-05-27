@@ -32,3 +32,4 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 - **Email**: Currently, users can send me messages through the website, but you should contact me through LinkedIn and my email. Please don't spam; I am on the free tier for this.
 -**Admin side** : i add view and delete button on admin side ,so that admin can delete message without visiting supabase page.  
 - **DeepSeek and Other AI Tools**: I used many tools for creating, testing, and deploying my portfolio.
+**Github analyzer** : add github analyzer on protfolio to add link of github and check github profile
