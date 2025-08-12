@@ -8,6 +8,7 @@ import { title } from 'framer-motion/client';
 import playerImg from "../assets/PLAYER.jpg"
 import mainImg from "../assets/main.jpg"
 import reelsImg from "../assets/reels blocker.jpg"
+import visualImg from "../assets/visuale.jpg"
 
 const Projects = () => {
   const projects = [
@@ -58,6 +59,14 @@ const Projects = () => {
       tags: ["Chrome Extension", "JavaScript"],
       githubUrl: "https://github.com/yavinash249/reels-block",
       liveUrl: "",
+    },
+    {
+      title: "Github visualizer",
+      description: "Visualize github account",
+      image: visualImg,
+      tags: ["Html", "css", "JavaScript"],
+      githubUrl: "https://github.com/yavinash249/Github-visualize",
+      liveUrl: "https://github-visualize.netlify.app/",
     }
   ];
 
